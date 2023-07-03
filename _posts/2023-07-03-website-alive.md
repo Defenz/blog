@@ -4,7 +4,7 @@ title: "Website is alive!"
 author: dadash
 categories: [ Jekyll, blog ]
 tags: [red, yellow]
-image: assets/images/11.jpg
+image: assets/images/1.jpg
 description: "Website is alive!"
 ---
 
