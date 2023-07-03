@@ -18,11 +18,26 @@ Vestibulum posuere maximus quam, a efficitur ipsum iaculis sit amet. Phasellus e
 
 Ut ut ultricies arcu. Etiam condimentum bibendum mi, ut blandit ligula rutrum ac. Donec lobortis, leo vel semper gravida, mi velit finibus est, nec maximus tortor est eget odio. Nulla cursus felis eu diam vestibulum, ac laoreet odio ultricies. Phasellus gravida mauris eget neque tincidunt scelerisque eu sed lectus. Maecenas semper nibh eu justo finibus, quis venenatis velit congue. Proin tincidunt orci vel lectus euismod, quis blandit ante iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 
-```C
+$$C$$
+
+```c
 #include <stdio.h>
 int main() {
    // printf() displays the string inside quotation
    printf("Hello, World!");
    return 0;
 }
+```
+$$Javascript$$
+
+```js
+// alertbar later
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 280) {
+        $('.alertbar').fadeIn();
+    } else {
+        $('.alertbar').fadeOut();
+    }
+});
 ```
