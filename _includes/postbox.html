@@ -1,0 +1,51 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {% if post.image %}
+
+                    {% if site.lazyimages == "enabled" %}
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
+                    {% else %}
+                        <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
+                    {% endif %}
+
+                {% endif %}
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-white" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% if post.rating %}
+                <div class="mb-2 mt-2 font-weight-normal">
+                {% include star_rating_postbox.html %}
+                </div>
+                {% endif %}
+            </h2>
+            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+        </div>
+        <div class="card-footer bg-darkf">
+            <div class="wrapfooter">
+                {% if post.author %}
+                <span class="meta-footer-thumb">
+                {% if author.avatar %}
+                <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+                {% else %}
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                {% endif %}
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                {% endif %}
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                </span>
+                <span class="post-read-more"><a href="{{ site.baseurl }}{{ post.url }}" title="Read Story"><svg class="svgIcon-use" height="25" width="130" viewBox="0 0 25 25"><path fill-rule="evenodd" d="M77.3536 4.35355C77.5488 4.15829 77.5488 3.84171 77.3536 3.64645L74.1716 0.464466C73.9763 0.269204 73.6597 0.269204 73.4645 0.464466C73.2692 0.659728 73.2692 0.976311 73.4645 1.17157L76.2929 4L73.4645 6.82843C73.2692 7.02369 73.2692 7.34027 73.4645 7.53553C73.6597 7.7308 73.9763 7.7308 74.1716 7.53553L77.3536 4.35355ZM0 4.5H77V3.5H0V4.5Z"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
