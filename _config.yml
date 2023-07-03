@@ -5,6 +5,7 @@ description: "Driving the Future of Cybersecurity Through Collaboration."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 banner: 'assets/images/banner.png'
+url: blog.defenz.io
 #baseurl: /blog
 google_analytics: 'UA-46278016-1'
 #disqus: 'defenzblog'
