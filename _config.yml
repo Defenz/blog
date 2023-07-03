@@ -15,13 +15,14 @@ permalink: /:title/
 # Authors
 authors:
   dadash:
-    name: Dadash
-    display_name: Dadash
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    name: nam3lum
+    display_name: nam3lum
+    avatar: "assets/images/nam3lum.jpeg"
+    #gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: aghadadash.guliyev@defenz.io
-#    web: https://defenz.io
+    web: https://github.com/nam3lum
     twitter: https://twitter.com/nam3lum
-    description: "No need to "
+    description: "Cybersecurity Engineer | OSWE, OSCP, eCPPTv2, CKA"
   orhan:
     name: Orhan
     display_name: Orhan

@@ -2,6 +2,7 @@
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
 }
+
 .mainheading {
     padding: 1rem 0rem;
 }
@@ -31,6 +32,10 @@
 
 span {
     color: #00ab6b;
+}
+
+.lineno {
+    border-right: solid rgba(255,255,255,.2)
 }
 
 a {
@@ -350,6 +355,14 @@ span.post-read-more a:hover {
 
 .link-dark {
     color: rgba(0, 0, 0, .8);
+}
+
+.link-light {
+     color: rgba(255, 255, 255, .8);
+}
+
+.link-light {
+     color: rgba(255, 255, 255, .8);
 }
 
 .article-post {
