@@ -103,7 +103,7 @@ ga('send', 'pageview');
 <div class="site-content">
 
 <div class="container">
-
+{% if page.layout != 'post' %}
 <!-- Site Title
 ================================================== -->
 <div class="mainheading row">
@@ -118,6 +118,7 @@ ga('send', 'pageview');
     </div>
     </div>
 </div>
+{% endif %}
 <!-- Content
 ================================================== -->
 <div class="main-content">
