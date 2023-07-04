@@ -5,11 +5,11 @@ description: "Driving the Future of Cybersecurity Through Collaboration."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 banner: 'assets/images/banner.png'
-url: blog.defenz.io
+url: https://blog.defenz.io
 #baseurl: /blog
 #google_analytics: 'UA-46278016-1'
 #disqus: 'defenzblog'
-#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+#mailchimp-list:
 include: ["_pages"]
 permalink: /:title/
 
@@ -31,7 +31,7 @@ authors:
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: orhan.jan@defenz.io
 #    web: #
-    twitter: https://twitter.com/wowthemesnet
+    twitter: https://twitter.com/birsayntist
     description: "Abi"
 
 # Plugins
