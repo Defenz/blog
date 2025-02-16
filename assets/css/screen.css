@@ -79,6 +79,8 @@ pre {
     padding-top: 1.5rem;
     margin-top: 57px;
     transition: all 0.4s;
+    background-color: rgba(34, 34, 34, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 section {
@@ -634,23 +636,23 @@ ul.tags li a:hover {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control:-moz-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control::-moz-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control:-ms-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .form-control::-ms-input-placeholder {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
 }
 
 .authorpage h1 {
@@ -664,7 +666,7 @@ ul.tags li a:hover {
 
 .authorpage .author-description {
     font-size: 1rem;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, .6);
 }
 
 .post-top-meta.authorpage .btn.follow {

@@ -19,20 +19,20 @@ authors:
     name: nam3lum
     display_name: nam3lum
     avatar: "assets/images/nam3lum.jpeg"
-    #gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: aghadadash.guliyev@defenz.io
-    web: https://github.com/nam3lum
+    email: dadash.guliyev@defenz.io
+    web: https://defenz.io
     twitter: https://twitter.com/nam3lum
-    description: "Cybersecurity Engineer | OSWE, OSCP, eCPPTv2, CKA"
-  orhan:
-    name: Orhan
-    display_name: Orhan
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: orhan.jan@defenz.io
-#    web: #
-    twitter: https://twitter.com/birsayntist
-    description: "Abi"
+    description: "Cybersecurity Engineer"
+  # example:
+  #   name: example
+  #   display_name: example
+  #   avatar: "assets/images/example.jpeg"
+  #   gravatar: gravatarid
+  #   email: example@example.io
+  #   web: 
+  #   twitter: https://twitter.com/nam3lum
+  #   description: "Cybersecurity Engineer"
+
 
 # Plugins
 plugins:
